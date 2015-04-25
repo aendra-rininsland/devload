@@ -1,0 +1,8 @@
+<div layout="row" class="chart-holder">
+  <div ng-repeat="chart in charts" flex class="item">
+    <c3chart ng-if="['?', '-', 'vacation'].indexOf(chart.data.columns[0][1]) === -1" config="chart"></c3chart>
+    <div class="message-vacation" ng-if="chart.data.columns[0][1] === '-' || chart.data.columns[0][1] === 'vacation'">On vacation</div>
+    <div class="message-unsure" ng-if="chart.data.columns[0][1] === '?'">Unsure</div>
+    <h3>{{chart.data.columns[0][0]}}</h3>
+  </div>
+</div>

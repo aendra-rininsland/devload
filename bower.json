@@ -1,0 +1,20 @@
+{
+  "name": "devload",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-animate": "~1.3.4",
+    "jquery": "~2.1.1",
+    "angular-ui-router": "~0.2.13",
+    "angular-material": "~0.8.3",
+    "angular": "~1.3.4",
+    "angular-tabletop": "~0.2.0",
+    "c3chart": "times/c3Chart#~0.0.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.4"
+  },
+  "resolutions": {
+    "jquery": "~2.1.1",
+    "angular": "~1.3.4"
+  }
+}
