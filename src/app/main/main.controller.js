@@ -26,11 +26,11 @@ angular.module('devload')
           width: 20
         },
         color: {
-          pattern: ['green', 'yellow', 'red', 'darkred'], // the three color levels for the percentage values.
+          pattern: ['darkgreen', 'lightgreen', 'yellow', 'red', 'darkred'], // the three color levels for the percentage values.
           threshold: {
             unit: 'value', // percentage is default
             max: 110, // 100 is default
-            values: [75, 100, 110]
+            values: [50, 65, 85, 100]
           }
         }
       };
